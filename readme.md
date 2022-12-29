@@ -48,7 +48,7 @@ IDE端及Web端需升级到对应的日志版本
 
 日志时间分为：入库时间和记录时间，一般情况下，入库时间与记录时间接近
 
-<img src="https://applog-8.oss-cn-beijing.aliyuncs.com/flyeyehelper/07b63ba035d0ed2a3e72a6b8c1f2555.png?OSSAccessKeyId=LTAI4FqTakyWPBg7byFiuCja&Expires=1000001671599669&Signature=GR%2B%2BfQ9YLitu3oSCqq9%2FRlp7aUY%3D" width=50%>
+<img src="https://raw.githubusercontent.com/wjxfhxy/flylog-query-helper/main/07b63ba035d0ed2a3e72a6b8c1f2555.png" width=50%>
 
 
 需要注意的是
@@ -84,7 +84,7 @@ App下目前划分为五个场景
 
 下图为搜索达利项目，出现网络错误提示的，李姓用户，且App版本为前缀为6.0.3.2022081902
 
-<img src="https://applog-8.oss-cn-beijing.aliyuncs.com/flyeyehelper/09fdf887940a121f0c29ef49af6526a.png?OSSAccessKeyId=LTAI4FqTakyWPBg7byFiuCja&Expires=10001671599597&Signature=LFGO3tRjNAqc6Yzq44Ctcpo6N%2Bw%3D" width=100%>
+<img src="https://raw.githubusercontent.com/wjxfhxy/flylog-query-helper/main/09fdf887940a121f0c29ef49af6526a.png" width=100%>
 
 ### 内部异常
 
@@ -135,7 +135,7 @@ com.xuanwu.apaas.servicese.loginmodule.exception.LoginBizHttpException
 
 需要注意，BizHttpTimeoutException前加上"%"进行后缀匹配
 
-<img src="https://applog-8.oss-cn-beijing.aliyuncs.com/flyeyehelper/42f201f483ba4e1e3dbd3d2eb8bc037.png?OSSAccessKeyId=LTAI4FqTakyWPBg7byFiuCja&Expires=1000001671599731&Signature=K8xO1n8xwRdEaR1aWqh6y41g4Wk%3D" width=100%>
+<img src="https://raw.githubusercontent.com/wjxfhxy/flylog-query-helper/main/42f201f483ba4e1e3dbd3d2eb8bc037.png" width=100%>
 
 ### HTTP
 
@@ -147,11 +147,11 @@ com.xuanwu.apaas.servicese.loginmodule.exception.LoginBizHttpException
 
 -1时需通过详情查看具体的网络错误
 
-<img src="https://applog-8.oss-cn-beijing.aliyuncs.com/flyeyehelper/9ed3a96fd9c56911e17e0226dd34c4c.png?OSSAccessKeyId=LTAI4FqTakyWPBg7byFiuCja&Expires=1000001671599766&Signature=NabM97PKt09it%2BVzLC9H9WY92Ew%3D" width=100%>
+<img src="https://raw.githubusercontent.com/wjxfhxy/flylog-query-helper/main/9ed3a96fd9c56911e17e0226dd34c4c.png" width=100%>
 
 下图为搜索大版本号为9.2.7，请求ip为39.108.92.63:7000，出现网络异常的日志
 
-<img src="https://applog-8.oss-cn-beijing.aliyuncs.com/flyeyehelper/ed8e9e7672ba8a22fdefdd47495924d.png?OSSAccessKeyId=LTAI4FqTakyWPBg7byFiuCja&Expires=1000001671599799&Signature=P0%2Bo9dfPMzodLGcPe8AaFA7lf7Y%3D" width=100%>
+<img src="https://raw.githubusercontent.com/wjxfhxy/flylog-query-helper/main/ed8e9e7672ba8a22fdefdd47495924d.png" width=100%>
 
 ### OSS
 
@@ -169,11 +169,11 @@ com.xuanwu.apaas.servicese.loginmodule.exception.LoginBizHttpException
 
 树形：展示与表单直接关联的日志，同时，表单配置事件能通过trace方式展示，便于查看事件的执行链路的情况，解决事件与行为的执行顺序，明确耗时情况，展示错误链路
 
-<img src="https://applog-8.oss-cn-beijing.aliyuncs.com/flyeyehelper/78720d0090c0077f6a3f11623421b3c.png?OSSAccessKeyId=LTAI4FqTakyWPBg7byFiuCja&Expires=1000001671599888&Signature=q3aknlYb90WY3qDEtmj%2B%2BOP5kOQ%3D" width=100%>
+<img src="https://raw.githubusercontent.com/wjxfhxy/flylog-query-helper/main/78720d0090c0077f6a3f11623421b3c.png" width=100%>
 
 列表：查看在表单生命周期时间内的所有日志，适用于由表单产生，但没有与表单直接关联的情况，比如图片裂图，或者在生命周期内，其他功能产生的日志，比如子表单产生的日志、后台定位、相机开启关闭
 
-<img src="https://applog-8.oss-cn-beijing.aliyuncs.com/flyeyehelper/9a445ba6afa7bb3e4fedb071839e78c.png?OSSAccessKeyId=LTAI4FqTakyWPBg7byFiuCja&Expires=10000001671599928&Signature=%2BPqMyiukBQBdebFbUosrKAMajd0%3D" width=100%>
+<img src="https://raw.githubusercontent.com/wjxfhxy/flylog-query-helper/main/9a445ba6afa7bb3e4fedb071839e78c.png" width=100%>
 
 ### 页面
 
@@ -181,7 +181,7 @@ com.xuanwu.apaas.servicese.loginmodule.exception.LoginBizHttpException
 
 下图为搜索Android/离线数据更新（iOS/登陆）展示的情况
 
-<img src="https://applog-8.oss-cn-beijing.aliyuncs.com/flyeyehelper/945b6c12c1ff441b512dddff5e5aa16.png?OSSAccessKeyId=LTAI4FqTakyWPBg7byFiuCja&Expires=100001671599973&Signature=UKHt6nA2xxoL7%2FSnkl77UqkRe0A%3D" width=100%>
+<img src="https://raw.githubusercontent.com/wjxfhxy/flylog-query-helper/main/945b6c12c1ff441b512dddff5e5aa16.png" width=100%>
 
 日志中虽没有记录离线数据所下载的数据，都有记录请求时的url及参数，可通过这些参数在IDE端复查下载的数据
 
@@ -191,7 +191,7 @@ com.xuanwu.apaas.servicese.loginmodule.exception.LoginBizHttpException
 
 下图为搜索"我的拜访"页面，并按每一级展开，可以看到日志展示了该用户在"终端客户详情"中，先后两次进入"拜访步骤列表"
 
-<img src="https://applog-8.oss-cn-beijing.aliyuncs.com/flyeyehelper/972e14b24c9673da41f8d1142eaa923.png?OSSAccessKeyId=LTAI4FqTakyWPBg7byFiuCja&Expires=10000001671600014&Signature=qRiAWP4G9WyHTKW8mD%2Bj8%2BQj3g0%3D" width=100%>
+<img src="https://raw.githubusercontent.com/wjxfhxy/flylog-query-helper/main/972e14b24c9673da41f8d1142eaa923.png" width=100%>
 
 ### 链路查询
 
@@ -328,25 +328,25 @@ types='http' and properties.code='200' | select count() from log group by envnam
 * | select client, count() from log group by client
 ```
 
-<img src="https://applog-8.oss-cn-beijing.aliyuncs.com/flyeyehelper/a5f0a6c08ff850896e278a0123125c3.png?OSSAccessKeyId=LTAI4FqTakyWPBg7byFiuCja&Expires=10000001671600076&Signature=AJyYVibv1vkF9up9n0AhRBQVHcw%3D" width=100%>
+<img src="https://raw.githubusercontent.com/wjxfhxy/flylog-query-helper/main/a5f0a6c08ff850896e278a0123125c3.png" width=100%>
 
 切换为折线图显示
 
 切换后需要设置X轴Y轴字段
 
-<img src="https://applog-8.oss-cn-beijing.aliyuncs.com/flyeyehelper/a88da85a01605147c6f4e1ee8350f29.png?OSSAccessKeyId=LTAI4FqTakyWPBg7byFiuCja&Expires=10000001671600132&Signature=qxWxQTMXJG9O36b4GP5pDVq3nSA%3D" width=100%>
+<img src="https://raw.githubusercontent.com/wjxfhxy/flylog-query-helper/main/a88da85a01605147c6f4e1ee8350f29.png" width=100%>
 
 切换为柱图显示
 
 切换后需要设置X轴Y轴字段，也可以修改柱的方向
 
-<img src="https://applog-8.oss-cn-beijing.aliyuncs.com/flyeyehelper/3df1b18392f30262d637f7ad2e3075c.png?OSSAccessKeyId=LTAI4FqTakyWPBg7byFiuCja&Expires=1000001671600160&Signature=Np0SRmr9iPUUu%2BSki4rzM50HGz4%3D" width=100%>
+<img src="https://raw.githubusercontent.com/wjxfhxy/flylog-query-helper/main/3df1b18392f30262d637f7ad2e3075c.png" width=100%>
 
 切换为饼图显示
 
 切换后需要设置分类和数值列字段
 
-<img src="https://applog-8.oss-cn-beijing.aliyuncs.com/flyeyehelper/cf087208be2c6794f8ec677315c0ed7.png?OSSAccessKeyId=LTAI4FqTakyWPBg7byFiuCja&Expires=1000001671600200&Signature=tqSdqMbLHltquMyTuN7Ntnp1L54%3D" width=100%>
+<img src="https://raw.githubusercontent.com/wjxfhxy/flylog-query-helper/main/cf087208be2c6794f8ec677315c0ed7.png" width=100%>
 
 ### 日志导出
 
@@ -386,7 +386,7 @@ properties like '%\'ctcode: 2\'%'
 
 找到对应日志中的traceid，复制到Server下的链路查询，或者复制到对应前端的链路查询，这里继续以Server为例
 
-<img src="https://applog-8.oss-cn-beijing.aliyuncs.com/flyeyehelper/54524f0597b60576886f9f9c55d41a9.png?OSSAccessKeyId=LTAI4FqTakyWPBg7byFiuCja&Expires=1000001671600234&Signature=Fz0E%2BELpAZtk4plOuoxaF%2Fv14TM%3D" width=100%>
+<img src="https://raw.githubusercontent.com/wjxfhxy/flylog-query-helper/main/54524f0597b60576886f9f9c55d41a9.png" width=100%>
 
 需要注意"自定义查询分析"与"链路查询"两个模块的入库时间需要选择一致
 
@@ -394,9 +394,9 @@ properties like '%\'ctcode: 2\'%'
 
 点http旁边的小箭头，系统继续查询前端部分的日志，最终把前后端调用链路串联起来
 
-<img src="https://applog-8.oss-cn-beijing.aliyuncs.com/flyeyehelper/83eac2d49a9492b20727425142db76f.png?OSSAccessKeyId=LTAI4FqTakyWPBg7byFiuCja&Expires=10000001671600264&Signature=k5qqrzomf2lpzuJ7aGr4vKbeMDw%3D" width=100%>
+<img src="https://raw.githubusercontent.com/wjxfhxy/flylog-query-helper/main/83eac2d49a9492b20727425142db76f.png" width=100%>
 
-<img src="https://applog-8.oss-cn-beijing.aliyuncs.com/flyeyehelper/ecbc6a29ffa669268f6ff2f64007aab.png?OSSAccessKeyId=LTAI4FqTakyWPBg7byFiuCja&Expires=10000001671600292&Signature=7yPZsqnFvdz671186MD972NCQ30%3D" width=100%>
+<img src="https://raw.githubusercontent.com/wjxfhxy/flylog-query-helper/main/ecbc6a29ffa669268f6ff2f64007aab.png" width=100%>
 
 需要注意的是，因为前后端的时间基点并不完全一致，故串联后的服务端trace进度与单独自身的trace进度有所出入
 
